@@ -2,8 +2,8 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
-EMAIL_ADDRESS='testprogram130@gmail.com'
-EMAIL_PASSWORD='zqbxybwezdjnuhon'
+EMAIL_ADDRESS=''#insert your email id here - not disclosed mine for privacy
+EMAIL_PASSWORD=''#insert authorisation key for your email id
 
 
 def send(value,low_bound):
