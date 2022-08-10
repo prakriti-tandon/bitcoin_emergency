@@ -1,4 +1,4 @@
-#webhook receiver
+
 from flask import Flask, request, abort
 import bitcoin_email
 import bitcoin_notification
@@ -7,10 +7,6 @@ app=Flask(__name__)
 
 @app.route('/webhook',methods=['POST'])
 
-
-#def sendpost():
-    #price = bitcoin.get_latest_bitcoin_price()
-    #bitcoin.post_ifttt_webhook(price)
 
 def webhook():
     #print(12345)
